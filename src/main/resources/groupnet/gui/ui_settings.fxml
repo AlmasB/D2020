@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<ScrollPane prefWidth="400.0" prefHeight="400.0"
+            xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="groupnet.gui.SettingsController">
+
+    <VBox spacing="5" alignment="CENTER_LEFT">
+
+        <CheckBox fx:id="cbParallel" text="Use multiple threads (faster)" selected="false" />
+
+        <Separator orientation="HORIZONTAL" />
+
+
+
+
+
+        <Label text="Curves" />
+
+        <HBox spacing="10" alignment="TOP_LEFT">
+            <Label text="Smooth factor [0-100] (0 disables)" />
+            <TextField fx:id="fieldSmoothFactor" text="10" prefWidth="50" />
+        </HBox>
+
+        <HBox spacing="10" alignment="TOP_LEFT">
+            <Label text="Stroke size factor" />
+            <TextField fx:id="fieldStrokeSizeFactor" text="2.5" prefWidth="50" />
+        </HBox>
+
+        <HBox spacing="10" alignment="TOP_LEFT">
+            <Label text="Graph size factor" />
+            <TextField fx:id="fieldGraphSizeFactor" text="4.0" prefWidth="50" />
+        </HBox>
+
+        <HBox spacing="10" alignment="TOP_LEFT">
+            <Label text="Network node distance" />
+            <TextField fx:id="fieldNodeDistance" text="80.0" prefWidth="50" />
+        </HBox>
+
+        <CheckBox fx:id="cbShowControls" text="Show controls" selected="false" />
+
+        <Separator orientation="HORIZONTAL" />
+
+
+
+
+
+        <Label text="Modified Euler dual" />
+
+        <HBox spacing="10" alignment="TOP_LEFT">
+            <Label text="Distance between MED and diagram (px)" />
+            <TextField fx:id="fieldMEDSize" text="100" prefWidth="100" />
+        </HBox>
+
+        <CheckBox fx:id="cbShowMED" text="Show final modified Euler dual (slower)" selected="false" />
+
+        <Separator orientation="HORIZONTAL" />
+
+    </VBox>
+
+</ScrollPane>

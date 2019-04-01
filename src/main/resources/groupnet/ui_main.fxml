@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import groupnet.ui.Renderer?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.geometry.Insets?>
+<BorderPane prefWidth="900.0" prefHeight="650.0"
+            xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="groupnet.gui.Controller">
+    <top>
+        <HBox spacing="5">
+            <MenuBar BorderPane.alignment="CENTER">
+                <Menu fx:id="menuDiagrams" text="Diagrams" />
+            </MenuBar>
+
+            <MenuBar BorderPane.alignment="CENTER">
+                <Menu fx:id="menuGNDiagrams" text="GND" />
+            </MenuBar>
+
+            <Button text="Settings" onAction="#settings"></Button>
+
+            <TextField prefWidth="290" fx:id="fieldInput" />
+
+            <TextField prefWidth="240" fx:id="fieldEdges" />
+            <TextField prefWidth="90" fx:id="fieldSNAP" />
+        </HBox>
+    </top>
+
+    <center>
+        <StackPane>
+            <padding>
+                <Insets topRightBottomLeft="15" />
+            </padding>
+
+            <Renderer fx:id="renderer" />
+        </StackPane>
+
+    </center>
+
+</BorderPane>

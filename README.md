@@ -1,8 +1,4 @@
-# InfoVis2019
-InfoVis2019 Groupnet paper supplementary material
+# InfoVis2019 - Automated Visualization of Combined Sets and Networks
 
-* Original SNAP data sets
-* Reduced data sets
-* The diagrams produced
-* Mark-up with counts
+* GroupNet implementation
 
