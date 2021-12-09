@@ -23,7 +23,7 @@
         <jgrapht.version>0.9.1</jgrapht.version>
         <javageom.version>0.11.1</javageom.version>
         <combinatorics.version>3.3.0</combinatorics.version>
-        <jackson.version>2.9.0</jackson.version>
+        <jackson.version>2.9.10.8</jackson.version>
 
         <!-- test dependencies -->
         <junit.jupiter.version>5.1.1</junit.jupiter.version>
