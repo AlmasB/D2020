@@ -19,7 +19,7 @@
         <maven.surefire.version>2.19</maven.surefire.version>
 
         <!-- dependencies -->
-        <kotlin.version>1.2.51</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <jgrapht.version>0.9.1</jgrapht.version>
         <javageom.version>0.11.1</javageom.version>
         <combinatorics.version>3.3.0</combinatorics.version>
